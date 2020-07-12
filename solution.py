@@ -9,6 +9,6 @@ def checkArmstrong(num):
                 dig = temp%10
                 s += dig **3
                 temp //= 10
-        if num == sum:
+        if num == s:
                 return True
         return False
